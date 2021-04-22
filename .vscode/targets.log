@@ -8,7 +8,7 @@ make: *** ターゲット 'all' を make するルールがありません.  中
 # これはフリーソフトウェアです: 自由に変更および配布できます.
 # 法律の許す限り、　無保証　です.
 
-# Make データベース出力 Thu Apr 22 19:36:38 2021
+# Make データベース出力 Thu Apr 22 20:25:58 2021
 
 # 変数
 
@@ -277,7 +277,6 @@ LC_IDENTIFICATION = ja_JP.UTF-8
 
 # 暗黙ルールなし.
 
- 
 # ファイル
 
 run-qemu-edk2:
@@ -285,8 +284,8 @@ run-qemu-edk2:
 #  修正時刻がチェックされることはありません.
 #  ファイルは更新されていません.
 #  実行するレシピ (ファイル 'Makefile', 5 行目):
-	source edk2/edksetup.sh && \
 	cd edk2 && \
+	source ./edksetup.sh && \
 	build && \
 	cd .. && \
 	./mikanos-build/devenv/run_qemu.sh ./edk2/Build/MikanLoaderX64/DEBUG_CLANG38/X64/Loader.efi
@@ -294,7 +293,7 @@ run-qemu-edk2:
 # ターゲットではありません:
 Makefile:
 #  暗黙ルールの探索が行われました.
-#  最終修正 2021-04-09 16:50:59.382751404
+#  最終修正 2021-04-22 19:45:53.763687715
 #  ファイルは更新されています.
 #  更新に成功しました.
 
@@ -347,6 +346,6 @@ day01-hello-create:
 # strcache の稼働: 探索 = 31 / ヒット率 = 22%
 # ハッシュテーブルの状態:
 # 負荷=24/8192=0%, 再ハッシュ=0, 衝突=0/31=0%
-# Make データベース終了 Thu Apr 22 19:36:38 2021
+# Make データベース終了 Thu Apr 22 20:25:58 2021
 
  

@@ -1,4 +1,4 @@
-make --dry-run --always-make --keep-going --print-directory
+make --dry-run --keep-going --print-directory
 make: ディレクトリ '/home/reud/Projects/reud-MikanOS'　に入ります
 ./mikanos-build/devenv/run_qemu.sh ./efi/
 make: ディレクトリ '/home/reud/Projects/reud-MikanOS' から出ます
