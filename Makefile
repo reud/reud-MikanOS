@@ -27,3 +27,6 @@ day03-kernel-compile:
 	-o chapters/3/kernelMain/main.o && \
 	ld.lld --entry KernelMain -z norelro --image-base 0x100000 --static \
 	-o kernel.elf ./chapters/3/kernelMain/main.o
+
+day03-run-qemu:
+	./mikanos-build/devenv/run_qemu.sh ./kernel.elf

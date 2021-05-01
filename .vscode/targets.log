@@ -8,14 +8,14 @@ make: *** ターゲット 'all' を make するルールがありません.  中
 # これはフリーソフトウェアです: 自由に変更および配布できます.
 # 法律の許す限り、　無保証　です.
 
-# Make データベース出力 Thu Apr 22 20:25:58 2021
+# Make データベース出力 Sat May  1 23:22:28 2021
 
 # 変数
 
 # 環境変数
 NO_AT_BRIDGE = 1
 # 環境変数
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-4451439d-da52-485a-860c-9053ffb1c88e.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-10b9b83f-024f-48ac-b44f-e8e44ce8f486.sock
 # 環境変数
 LC_NAME = ja_JP.UTF-8
 # 環境変数
@@ -48,8 +48,6 @@ PWD = /home/reud/Projects/reud-MikanOS
 MAIL = /var/spool/mail/reud
 # 環境変数
 XDG_DATA_DIRS = /home/reud/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share
-# 環境変数
-OLDPWD = /home/reud/Projects
 # 自動変数
 ^D = $(patsubst %/,%,$(dir $^))
 # 環境変数
@@ -81,7 +79,7 @@ APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # 環境変数
 MFLAGS = -pqrR
 # 環境変数
-SSH_AUTH_SOCK = /tmp/ssh-XXXXXXoELwCM/agent.973
+SSH_AUTH_SOCK = /tmp/ssh-XXXXXXzQUsbC/agent.1011
 # デフォルト
 .SHELLFLAGS := -c
 # 環境変数
@@ -99,13 +97,13 @@ MAKEFILE_LIST := Makefile
 # 環境変数
 VSCODE_VERBOSE_LOGGING = true
 # 環境変数
-VSCODE_PID = 5088
+VSCODE_PID = 5685
 # 環境変数
 XDG_SESSION_TYPE = x11
 # 自動変数
 ?D = $(patsubst %/,%,$(dir $?))
 # 環境変数
-SESSION_MANAGER = local/Brenda:@/tmp/.ICE-unix/915,unix/Brenda:/tmp/.ICE-unix/915
+SESSION_MANAGER = local/Brenda:@/tmp/.ICE-unix/950,unix/Brenda:/tmp/.ICE-unix/950
 # 自動変数
 *F = $(notdir $*)
 # 環境変数
@@ -131,7 +129,7 @@ XMODIFIERS = @im=fcitx
 # 環境変数
 DENO_INSTALL = /home/reud/.deno
 # 環境変数
-SHLVL = 2
+SHLVL = 0
 # 環境変数
 MAKELEVEL := 0
 # デフォルト
@@ -151,8 +149,6 @@ LC_TIME = ja_JP.UTF-8
 # 環境変数
 VSCODE_LOG_NATIVE = false
 # 環境変数
-TERM_PROGRAM = Hyper
-# 環境変数
 LC_TELEPHONE = ja_JP.UTF-8
 # 自動変数
 ?F = $(notdir $?)
@@ -163,7 +159,7 @@ GTK_IM_MODULE = fcitx
 # 環境変数
 XDG_CURRENT_DESKTOP = XFCE
 # 環境変数
-LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=01;05;37;41:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.pdf=00;32:*.ps=00;32:*.txt=00;32:*.patch=00;32:*.diff=00;32:*.log=00;32:*.tex=00;32:*.doc=00;32:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+LS_COLORS = 
 # 自動変数
 +F = $(notdir $+)
 # 環境変数
@@ -197,7 +193,7 @@ MAKE_VERSION := 4.3
 # 環境変数
 LC_MEASUREMENT = ja_JP.UTF-8
 # 環境変数
-SSH_AGENT_PID = 974
+SSH_AGENT_PID = 1012
 # 環境変数
 VSCODE_NODE_CACHED_DATA_DIR = /home/reud/.config/Code/CachedData/fd6f3bce6709b121a895d042d343d71f317d74e7
 # 環境変数
@@ -206,8 +202,6 @@ _ = /usr/bin/make
 LC_PAPER = ja_JP.UTF-8
 # 環境変数
 XDG_RUNTIME_DIR = /run/user/1000
-# 環境変数
-COLORTERM = truecolor
 # 環境変数
 NVM_RC_VERSION = 
 # 環境変数
@@ -229,8 +223,6 @@ ELECTRON_RUN_AS_NODE = 1
 # 環境変数
 VSCODE_IPC_HOOK = /run/user/1000/vscode-cf28476f-1.54.2-main.sock
 # 環境変数
-TERM = xterm-256color
-# 環境変数
 XDG_SESSION_ID = 1
 # 環境変数
 PANEL_GDK_CORE_DEVICE_EVENTS = 0
@@ -245,23 +237,17 @@ SUFFIXES :=
 # 環境変数
 QT_AUTO_SCREEN_SCALE_FACTOR = 0
 # 環境変数
-VSCODE_CLI = 1
-# 環境変数
-ELECTRON_NO_ATTACH_CONSOLE = 1
-# 環境変数
 XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/reud
 # デフォルト
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
 # 環境変数
 XDG_MENU_PREFIX = xfce-
 # 環境変数
-TERM_PROGRAM_VERSION = 3.0.2
-# 環境変数
 GDMSESSION = xfce
 # 環境変数
 LC_IDENTIFICATION = ja_JP.UTF-8
 # 変数セットのハッシュテーブルの状態:
-# 負荷=124/1024=12%, 再ハッシュ=0, 衝突=8/154=5%
+# 負荷=117/1024=11%, 再ハッシュ=0, 衝突=7/147=5%
 
 # パターン指定 変数 値
 
@@ -269,15 +255,22 @@ LC_IDENTIFICATION = ja_JP.UTF-8
 
 # ディレクトリ
 
-# . (device 2049, inode 21627182): 16 個のファイル, 0 個の適用不能ファイル名.
+# . (device 2049, inode 21627182): 20 個のファイル, 0 個の適用不能ファイル名.
 
-# 16 個のファイル, 0 個の適用不能ファイル名 (1 個のディレクトリ内).
+# 20 個のファイル, 0 個の適用不能ファイル名 (1 個のディレクトリ内).
 
 # 暗黙ルール
 
 # 暗黙ルールなし.
 
 # ファイル
+
+day03-run-qemu:
+#  暗黙ルールの探索は行われませんでした.
+#  修正時刻がチェックされることはありません.
+#  ファイルは更新されていません.
+#  実行するレシピ (ファイル 'Makefile', 32 行目):
+	./mikanos-build/devenv/run_qemu.sh ./kernel.elf
 
 run-qemu-edk2:
 #  暗黙ルールの探索は行われませんでした.
@@ -290,10 +283,23 @@ run-qemu-edk2:
 	cd .. && \
 	./mikanos-build/devenv/run_qemu.sh ./edk2/Build/MikanLoaderX64/DEBUG_CLANG38/X64/Loader.efi
 
+day03-kernel-compile:
+#  暗黙ルールの探索は行われませんでした.
+#  修正時刻がチェックされることはありません.
+#  ファイルは更新されていません.
+#  実行するレシピ (ファイル 'Makefile', 23 行目):
+	clang++ -O2 -Wall -g --target=x86_64-elf -ffreestanding -mno-red-zone \
+	-fno-exceptions -fno-rtti \
+	-std=c++17 \
+	-c chapters/3/kernelMain/main.cpp \
+	-o chapters/3/kernelMain/main.o && \
+	ld.lld --entry KernelMain -z norelro --image-base 0x100000 --static \
+	-o kernel.elf ./chapters/3/kernelMain/main.o
+
 # ターゲットではありません:
 Makefile:
 #  暗黙ルールの探索が行われました.
-#  最終修正 2021-04-22 19:45:53.763687715
+#  最終修正 2021-04-27 16:13:52.595256493
 #  ファイルは更新されています.
 #  更新に成功しました.
 
@@ -312,6 +318,7 @@ run-qemu:
 
 # ターゲットではありません:
 all:
+ 
 #  コマンドラインターゲット.
 #  暗黙ルールの探索が行われました.
 #  ファイルが存在しません.
@@ -333,19 +340,19 @@ day01-hello-create:
 	lld-link /subsystem:efi_application /entry:EfiMain /out:./../../../efi/hello.efi ./../../../out/hello.o
 
 # ファイルハッシュテーブルの状態:
-# 負荷=7/1024=1%, 再ハッシュ=0, 衝突=0/17=0%
+# 負荷=9/1024=1%, 再ハッシュ=0, 衝突=0/19=0%
 # VPATH 探索パス
 
 # 'vpath' 探索パスはありません.
 
 # 一般の ('VPATH' 変数) 探索パスなし.
 
-# strcache バッファ: 1 (0) / 文字列 = 24 / 格納 = 221 B / 平均 = 9 B
-# 現在のバッファ: サイズ = 8162 B / 使用中 = 221 B / 個数 = 24 / 平均 = 9 B
+# strcache バッファ: 1 (0) / 文字列 = 30 / 格納 = 290 B / 平均 = 9 B
+# 現在のバッファ: サイズ = 8162 B / 使用中 = 290 B / 個数 = 30 / 平均 = 9 B
 
-# strcache の稼働: 探索 = 31 / ヒット率 = 22%
+# strcache の稼働: 探索 = 39 / ヒット率 = 23%
 # ハッシュテーブルの状態:
-# 負荷=24/8192=0%, 再ハッシュ=0, 衝突=0/31=0%
-# Make データベース終了 Thu Apr 22 20:25:58 2021
+# 負荷=30/8192=0%, 再ハッシュ=0, 衝突=2/39=5%
+# Make データベース終了 Sat May  1 23:22:28 2021
 
  
