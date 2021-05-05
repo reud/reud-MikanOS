@@ -8,32 +8,28 @@ make: *** ターゲット 'all' を make するルールがありません.  中
 # これはフリーソフトウェアです: 自由に変更および配布できます.
 # 法律の許す限り、　無保証　です.
 
-# Make データベース出力 Sat May  1 23:22:28 2021
+# Make データベース出力 Wed May  5 14:58:32 2021
 
 # 変数
 
 # 環境変数
 NO_AT_BRIDGE = 1
 # 環境変数
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-10b9b83f-024f-48ac-b44f-e8e44ce8f486.sock
+GJS_DEBUG_OUTPUT = stderr
+# 環境変数
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-13ec8b7a-c64e-49ff-9303-9c663a1194ab.sock
 # 環境変数
 LC_NAME = ja_JP.UTF-8
 # 環境変数
 LC_NUMERIC = ja_JP.UTF-8
 # 環境変数
-GMINER_HOME = /home/reud/gminer/GMiner
-# 環境変数
-NVM_DIR = /home/reud/.nvm
+VSCODE_CWD = /home/reud/Projects/reud-MikanOS
 # 環境変数
 LC_ADDRESS = ja_JP.UTF-8
-# 環境変数
-GDM_LANG = ja_JP.utf8
 # デフォルト
 MAKE_COMMAND := make
 # 環境変数
-GTK3_MODULES = xapp-gtk3-module:xapp-gtk3-module
-# 環境変数
-GOPATH = /home/reud/go
+GTK3_MODULES = xapp-gtk3-module
 # 自動変数
 @D = $(patsubst %/,%,$(dir $@))
 # 環境変数
@@ -47,7 +43,9 @@ PWD = /home/reud/Projects/reud-MikanOS
 # 環境変数
 MAIL = /var/spool/mail/reud
 # 環境変数
-XDG_DATA_DIRS = /home/reud/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop:/usr/share
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# 環境変数
+OLDPWD = /home/reud/Projects/reud-MikanOS/mikanos
 # 自動変数
 ^D = $(patsubst %/,%,$(dir $^))
 # 環境変数
@@ -64,10 +62,10 @@ XAUTHORITY = /home/reud/.Xauthority
 .LOADED := 
 # デフォルト
 .INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# 環境変数
+GNOME_TERMINAL_SERVICE = :1.98
 # makefile 変数
 MAKEFLAGS = pqrR
-# 環境変数
-PKG_CONFIG_PATH = :/opt/mpich/lib/pkgconfig:/opt/mpich/lib/pkgconfig
 # makefile 変数
 CURDIR := /home/reud/Projects/reud-MikanOS
 # 環境変数
@@ -78,18 +76,14 @@ APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 *D = $(patsubst %/,%,$(dir $*))
 # 環境変数
 MFLAGS = -pqrR
-# 環境変数
-SSH_AUTH_SOCK = /tmp/ssh-XXXXXXzQUsbC/agent.1011
 # デフォルト
 .SHELLFLAGS := -c
-# 環境変数
-XDG_CONFIG_DIRS = /etc/xdg
 # 自動変数
 +D = $(patsubst %/,%,$(dir $+))
 # 環境変数
-XDG_SESSION_DESKTOP = xfce
+XDG_SESSION_DESKTOP = cinnamon
 # 環境変数
-VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=3c7fa18a-24da-4b3d-abed-ec6aac5335fb&iid=3c7fa18a-24da-4b3d-abed-ec6aac5335fb&sid=3c7fa18a-24da-4b3d-abed-ec6aac5335fb","uploadToServer":true}
+VSCODE_CRASH_REPORTER_START_OPTIONS = {"companyName":"Microsoft","productName":"VSCode","submitURL":"appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=70516176-3747-4de6-ae6d-fdea025e4ddb&iid=70516176-3747-4de6-ae6d-fdea025e4ddb&sid=70516176-3747-4de6-ae6d-fdea025e4ddb","uploadToServer":true}
 # makefile 変数 (ファイル 'Makefile', 1 行目)
 MAKEFILE_LIST := Makefile
 # 自動変数
@@ -97,13 +91,13 @@ MAKEFILE_LIST := Makefile
 # 環境変数
 VSCODE_VERBOSE_LOGGING = true
 # 環境変数
-VSCODE_PID = 5685
+VSCODE_PID = 2151
 # 環境変数
 XDG_SESSION_TYPE = x11
 # 自動変数
 ?D = $(patsubst %/,%,$(dir $?))
 # 環境変数
-SESSION_MANAGER = local/Brenda:@/tmp/.ICE-unix/950,unix/Brenda:/tmp/.ICE-unix/950
+SESSION_MANAGER = local/Angela:@/tmp/.ICE-unix/1024,unix/Angela:/tmp/.ICE-unix/1024
 # 自動変数
 *F = $(notdir $*)
 # 環境変数
@@ -120,6 +114,8 @@ VSCODE_NLS_CONFIG = {"locale":"ja","availableLanguages":{},"_languagePackSupport
 BREAKPAD_DUMP_LOCATION = /home/reud/.config/Code/exthost Crash Reports
 # デフォルト
 MAKE_HOST := x86_64-pc-linux-gnu
+# 環境変数
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
 # makefile 変数
 SHELL = /bin/sh
 # デフォルト
@@ -127,15 +123,17 @@ MAKECMDGOALS := all
 # 環境変数
 XMODIFIERS = @im=fcitx
 # 環境変数
-DENO_INSTALL = /home/reud/.deno
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 # 環境変数
-SHLVL = 0
+SHLVL = 2
+# 環境変数
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/62c95f2f_c481_4d7d_bd92_0106a4fec51b
 # 環境変数
 MAKELEVEL := 0
 # デフォルト
 MAKE = $(MAKE_COMMAND)
 # 環境変数
-PATH = /home/reud/.cargo/bin:/home/reud/.cargo/bin:/home/reud/AppImages:/home/reud/.deno/bin:/home/reud/.local/bin:/home/reud/.cargo/bin:/home/reud/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/opt/mpich/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/usr/lib/jvm/default/bin:/opt/mpich/bin
+PATH = /home/reud/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin
 # デフォルト
 MAKEFILES := 
 # 環境変数
@@ -144,6 +142,8 @@ LC_MONETARY = ja_JP.UTF-8
 MOTD_SHOWN = pam
 # 自動変数
 ^F = $(notdir $^)
+# 環境変数
+CINNAMON_VERSION = 4.8.6
 # 環境変数
 LC_TIME = ja_JP.UTF-8
 # 環境変数
@@ -157,35 +157,31 @@ XDG_SEAT = seat0
 # 環境変数
 GTK_IM_MODULE = fcitx
 # 環境変数
-XDG_CURRENT_DESKTOP = XFCE
-# 環境変数
-LS_COLORS = 
+XDG_CURRENT_DESKTOP = X-Cinnamon
 # 自動変数
 +F = $(notdir $+)
 # 環境変数
 XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
 # 環境変数
-DESKTOP_SESSION = xfce
+DESKTOP_SESSION = cinnamon
 # 環境変数
-ORIGINAL_XDG_CURRENT_DESKTOP = XFCE
+ORIGINAL_XDG_CURRENT_DESKTOP = X-Cinnamon
 # 'override' 疑似命令
 GNUMAKEFLAGS := 
 # 環境変数
 LOGNAME = reud
 # 環境変数
-DefaultIMModule = fcitx
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/visual-studio-code.desktop
 # 環境変数
 XDG_VTNR = 7
 # makefile 変数
 .DEFAULT_GOAL := run-qemu
 # 環境変数
-XMODIFIER = @im=fcitx
+EDITOR = nano
 # 環境変数
-EDITOR = /usr/bin/nano
+DISPLAY = :0
 # 環境変数
-DISPLAY = :0.0
-# 環境変数
-GTK_MODULES = canberra-gtk-module:canberra-gtk-module
+GTK_MODULES = canberra-gtk-module
 # 環境変数
 USER = reud
 # デフォルト
@@ -193,9 +189,9 @@ MAKE_VERSION := 4.3
 # 環境変数
 LC_MEASUREMENT = ja_JP.UTF-8
 # 環境変数
-SSH_AGENT_PID = 1012
+GIO_LAUNCHED_DESKTOP_FILE_PID = 2151
 # 環境変数
-VSCODE_NODE_CACHED_DATA_DIR = /home/reud/.config/Code/CachedData/fd6f3bce6709b121a895d042d343d71f317d74e7
+VSCODE_NODE_CACHED_DATA_DIR = /home/reud/.config/Code/CachedData/3c4e3df9e89829dce27b7b5c24508306b151f30d
 # 環境変数
 _ = /usr/bin/make
 # 環境変数
@@ -203,17 +199,15 @@ LC_PAPER = ja_JP.UTF-8
 # 環境変数
 XDG_RUNTIME_DIR = /run/user/1000
 # 環境変数
-NVM_RC_VERSION = 
+ZIPINFOOPT = -OCP932
 # 環境変数
-NVM_CD_FLAGS = 
+COLORTERM = truecolor
 # 環境変数
-GOMODCACHE = /home/reud/go/pkg/mod
+GTK_OVERLAY_SCROLLING = 1
 # 環境変数
 XDG_SESSION_CLASS = user
 # 環境変数
 VSCODE_AMD_ENTRYPOINT = vs/workbench/services/extensions/node/extensionHostProcess
-# 環境変数
-GTK2_RC_FILES = /home/reud/.gtkrc-2.0
 # 環境変数
 HOME = /home/reud
 # 環境変数
@@ -221,13 +215,11 @@ QT_IM_MODULE = fcitx
 # 環境変数
 ELECTRON_RUN_AS_NODE = 1
 # 環境変数
-VSCODE_IPC_HOOK = /run/user/1000/vscode-cf28476f-1.54.2-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-cf28476f-1.55.2-main.sock
+# 環境変数
+TERM = xterm-256color
 # 環境変数
 XDG_SESSION_ID = 1
-# 環境変数
-PANEL_GDK_CORE_DEVICE_EVENTS = 0
-# 環境変数
-GOPROXY = https://proxy.golang.org,direct
 # デフォルト
 .RECIPEPREFIX := 
 # 自動変数
@@ -235,19 +227,23 @@ GOPROXY = https://proxy.golang.org,direct
 # デフォルト
 SUFFIXES := 
 # 環境変数
-QT_AUTO_SCREEN_SCALE_FACTOR = 0
+VSCODE_CLI = 1
+# 環境変数
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# 環境変数
+VTE_VERSION = 6401
 # 環境変数
 XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/reud
 # デフォルト
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
 # 環境変数
-XDG_MENU_PREFIX = xfce-
+UNZIPOPT = -OCP932
 # 環境変数
-GDMSESSION = xfce
+GDMSESSION = cinnamon
 # 環境変数
 LC_IDENTIFICATION = ja_JP.UTF-8
 # 変数セットのハッシュテーブルの状態:
-# 負荷=117/1024=11%, 再ハッシュ=0, 衝突=7/147=5%
+# 負荷=115/1024=11%, 再ハッシュ=0, 衝突=13/145=9%
 
 # パターン指定 変数 値
 
@@ -255,9 +251,9 @@ LC_IDENTIFICATION = ja_JP.UTF-8
 
 # ディレクトリ
 
-# . (device 2049, inode 21627182): 20 個のファイル, 0 個の適用不能ファイル名.
+# . (device 2050, inode 25177918): 19 個のファイル, 0 個の適用不能ファイル名.
 
-# 20 個のファイル, 0 個の適用不能ファイル名 (1 個のディレクトリ内).
+# 19 個のファイル, 0 個の適用不能ファイル名 (1 個のディレクトリ内).
 
 # 暗黙ルール
 
@@ -271,6 +267,13 @@ day03-run-qemu:
 #  ファイルは更新されていません.
 #  実行するレシピ (ファイル 'Makefile', 32 行目):
 	./mikanos-build/devenv/run_qemu.sh ./kernel.elf
+
+setup:
+#  暗黙ルールの探索は行われませんでした.
+#  修正時刻がチェックされることはありません.
+#  ファイルは更新されていません.
+#  実行するレシピ (ファイル 'Makefile', 35 行目):
+	ln -s ./MikanLoaderPkg ./edk2/
 
 run-qemu-edk2:
 #  暗黙ルールの探索は行われませんでした.
@@ -296,10 +299,49 @@ day03-kernel-compile:
 	ld.lld --entry KernelMain -z norelro --image-base 0x100000 --static \
 	-o kernel.elf ./chapters/3/kernelMain/main.o
 
+day04a:
+#  暗黙ルールの探索は行われませんでした.
+#  修正時刻がチェックされることはありません.
+#  ファイルは更新されていません.
+#  実行するレシピ (ファイル 'Makefile', 38 行目):
+	export BASEDIR="./mikanos-build/devenv/x86_64-elf" && \
+	export EDK2DIR="./edk2" && \
+	export CPPFLAGS="\
+	-I$BASEDIR/include/c++/v1 -I$BASEDIR/include -I$BASEDIR/include/freetype2 \
+	-I$EDK2DIR/MdePkg/Include -I$EDK2DIR/MdePkg/Include/X64 \
+	-nostdlibinc -D__ELF__ -D_LDBL_EQ_DBL -D_GNU_SOURCE -D_POSIX_TIMERS \
+	-DEFIAPI='__attribute__((ms_abi))'" && \
+	export LDFLAGS="-L$BASEDIR/lib" && \
+	clang++ -I ./x86_64-elf/include/c++/v1 \
+	-I ./x86_64-elf/include \
+	-nostdlibinc -D__ELF__ -D_LDBL_EQ_DBL -D_GNU_SOURCE -D_POSIX_TIMERS \
+	-O2 \
+	--target=x86_64-elf \
+	-fno-exceptions \
+	-ffreestanding \
+	-Wall \
+	-g \
+	-mno-red-zone \
+	-fno-rtti \
+	-std=c++17 \
+	-c ./mikanos/kernel/main.cpp && \
+	ld.lld -L ./x86_64-elf/lib \
+	--entry KernelMain \
+	-z norelro \
+	--image-base 0x100000 \
+	--static \
+	-o kernel.elf main.o && \
+	cd edk2 && \
+	source ./edksetup.sh && \
+	build && \
+	cd .. && \
+	./mikanos-build/devenv/run_qemu.sh ./edk2/Build/MikanLoaderX64/DEBUG_CLANG38/X64/Loader.efi　./kernel.elf
+
 # ターゲットではありません:
 Makefile:
 #  暗黙ルールの探索が行われました.
-#  最終修正 2021-04-27 16:13:52.595256493
+ 
+#  最終修正 2021-05-05 14:57:41.892843595
 #  ファイルは更新されています.
 #  更新に成功しました.
 
@@ -318,7 +360,6 @@ run-qemu:
 
 # ターゲットではありません:
 all:
- 
 #  コマンドラインターゲット.
 #  暗黙ルールの探索が行われました.
 #  ファイルが存在しません.
@@ -340,19 +381,19 @@ day01-hello-create:
 	lld-link /subsystem:efi_application /entry:EfiMain /out:./../../../efi/hello.efi ./../../../out/hello.o
 
 # ファイルハッシュテーブルの状態:
-# 負荷=9/1024=1%, 再ハッシュ=0, 衝突=0/19=0%
+# 負荷=11/1024=1%, 再ハッシュ=0, 衝突=0/21=0%
 # VPATH 探索パス
 
 # 'vpath' 探索パスはありません.
 
 # 一般の ('VPATH' 変数) 探索パスなし.
 
-# strcache バッファ: 1 (0) / 文字列 = 30 / 格納 = 290 B / 平均 = 9 B
-# 現在のバッファ: サイズ = 8162 B / 使用中 = 290 B / 個数 = 30 / 平均 = 9 B
+# strcache バッファ: 1 (0) / 文字列 = 31 / 格納 = 299 B / 平均 = 9 B
+# 現在のバッファ: サイズ = 8162 B / 使用中 = 299 B / 個数 = 31 / 平均 = 9 B
 
-# strcache の稼働: 探索 = 39 / ヒット率 = 23%
+# strcache の稼働: 探索 = 42 / ヒット率 = 26%
 # ハッシュテーブルの状態:
-# 負荷=30/8192=0%, 再ハッシュ=0, 衝突=2/39=5%
-# Make データベース終了 Sat May  1 23:22:28 2021
+# 負荷=31/8192=0%, 再ハッシュ=0, 衝突=2/42=5%
+# Make データベース終了 Wed May  5 14:58:32 2021
 
  
